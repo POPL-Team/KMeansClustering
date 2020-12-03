@@ -36,7 +36,9 @@ It was also suggested by Professor Abedalrhman Alkhateeb that choosing 2 attribu
 
 Looking through the dataset, the group figured that it would have been wise to choose the combination of attributes that would create the most distinct clusters.
 
-![](RackMultipart20201203-4-70c42r_html_11b19c0cdc4f8088.png)In order to do this, we coded a graph for each combination in Python, and this was the result:
+![](images/Result.png)
+
+In order to do this, we coded a graph for each combination in Python, and this was the result:
 
 Observing the multiple graphs, it was clear to see that the graph in the bottom left gave the most clear and distinct clusters.
 
@@ -68,16 +70,17 @@ The implementation was proceeding very smoothly until a very strange bug was enc
 
 The clustering would fail or succeed depending on what position the initial centroids are placed in.
 
-![](RackMultipart20201203-4-70c42r_html_f3742de15676fab0.png)
- ![](RackMultipart20201203-4-70c42r_html_80f55b015583fbee.png)
+
 **Case 1: Successful run (Fortunate starting point of the centroids)**
+
+![](images/Case1.png)
 
 In this case, it can be observed that the 4 centroids within the dataset have all been placed in convenient locations that allow the K-Means clustering algorithm to function properly. The four centroids can identify which cluster they should associate with and iteratively move to the center of said clusters.
 
 **Case 2: Failed run (Unfortunate starting point of the centroids)**
 
-![](RackMultipart20201203-4-70c42r_html_6bb24a64bbfba909.png)_I ![](RackMultipart20201203-4-70c42r_html_afe68eb62994412a.png)
- nitial Final_
+![](images/Case2.png)
+
 
 In this case, it can be observed that the 4 centroids within the dataset have been placed in very odd locations for the initial iteration. Due to this, the associativity of the centroids does not work the way it is supposed to, as one centroid associates to two different clusters (which results in it being stuck in the middle of the two) and two other centroids attempt to associate to one cluster.
 
