@@ -99,7 +99,7 @@ The group was able to create a successful K-Means algorithm within the functiona
 ### Required Libraries
 
     Racket - CSV Writing (Can be installed within DrRacket)
-    Python - Matplotlib, numpy, pandas (for visual representation)
+    Python - Matplotlib, numpy 1.19.3, pandas (for visual representation)
 In order to properly execute the project, one must:
 
 - Run kmeans.rkt - kmeans.rkt will generate a CSV file &#39;centroids.csv&#39;
