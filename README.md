@@ -66,7 +66,7 @@ The racket file can be inspected for further documentation.
 
 ## Issues noticed during implementation
 
-The implementation was proceeding very smoothly until a very strange bug was encountered. The centroids would either converge or diverge from the clusters depending on the randomization. After running some tests and debugging the code, the group figured out what the problem was.
+The implementation was proceeding very smoothly until a strange bug was encountered. The centroids would either converge or diverge from the clusters depending on the randomization. After running some tests and debugging the code, the group was able to figure out what the problem was.
 
 The clustering would fail or succeed depending on what position the initial centroids are placed in.
 
@@ -103,4 +103,4 @@ In order to properly execute the project, one must:
 - To move to the next iteration of the algorithm, hit enter in the terminal.
 - The program exits after the final iteration of kmeans.
 
-A &#39;centroidsFantastic.csv&#39; file will be provided. The initial positions of the centroids in this case excellectly demonstrate the K-Means Clustering algorithm. To use this file, change &#39;centroids.csv&#39; to &#39;centroidsFantastic.csv&#39; in Graph\_Kmeans.py.
+A &#39;centroidsFantastic.csv&#39; file will be provided. The initial positions of the centroids in this case excellently demonstrate the K-Means Clustering algorithm. To use this file, change &#39;centroids.csv&#39; to &#39;centroidsFantastic.csv&#39; in Graph\_Kmeans.py.
