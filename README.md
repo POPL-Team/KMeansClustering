@@ -96,6 +96,10 @@ The group was able to create a successful K-Means algorithm within the functiona
 
 ## Execution
 
+### Required Libraries
+
+    Racket - CSV Writing (Can be installed within DrRacket)
+    Python - Matplotlib, numpy, pandas (for visual representation)
 In order to properly execute the project, one must:
 
 - Run kmeans.rkt - kmeans.rkt will generate a CSV file &#39;centroids.csv&#39;
@@ -104,3 +108,4 @@ In order to properly execute the project, one must:
 - The program exits after the final iteration of kmeans.
 
 A &#39;centroidsFantastic.csv&#39; file will be provided. The initial positions of the centroids in this case excellently demonstrate the K-Means Clustering algorithm. To use this file, change &#39;centroids.csv&#39; to &#39;centroidsFantastic.csv&#39; in Graph\_Kmeans.py.
+
